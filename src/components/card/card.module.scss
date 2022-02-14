@@ -1,0 +1,43 @@
+@use '../../assets/styles/theme';
+
+.card {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 3rem;
+    box-shadow: theme.$shadow;
+    background-color: theme.$color-white;
+    
+    &__image {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 2.4rem;
+        font-weight: 900;
+        color: theme.$color-dark-gray;
+        margin-bottom: 2.5rem;
+
+        @media screen and (min-width: theme.$screen-small) {
+            font-size: 3rem;
+        }
+    }
+
+    &__description {
+        text-align: center;
+        font-size: 1.6rem;
+        font-weight: 500;
+        letter-spacing: 0.04rem;
+        color: theme.$color-gray;
+        line-height: 2.5rem;
+        margin-bottom: 3rem;
+
+        @media screen and (min-width: 384px) {
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+    }
+}
