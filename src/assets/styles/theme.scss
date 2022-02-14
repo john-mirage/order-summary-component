@@ -1,9 +1,12 @@
+// Colors
 $color-pale-blue: hsl(225, 100%, 94%);
 $color-bright-blue: hsl(245, 75%, 52%);
-$color-dark-gray: #111827;
-$color-gray: #6b7280;
+$color-dark-gray: hsl(221, 39%, 11%);
+$color-gray: hsl(220, 9%, 46%);
 $color-white: hsl(0, 0%, 100%);
 
+// Screens
 $screen-sm: 576px;
 
+// Shadows
 $shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
