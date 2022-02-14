@@ -7,6 +7,14 @@
     border-radius: 3rem;
     box-shadow: theme.$shadow;
     background-color: theme.$color-white;
+
+    &__body {
+        padding: 3rem;
+
+        @media screen and (min-width: theme.$screen-small) {
+            padding: 4.5rem;
+        }
+    }
     
     &__image {
         display: block;
@@ -39,5 +47,15 @@
             padding-left: 10%;
             padding-right: 10%;
         }
+    }
+
+    &__order {
+        width: 100%;
+        height: auto;
+        margin-bottom: 3rem;
+    }
+
+    &__primaryButton {
+        margin-bottom: 1rem;
     }
 }

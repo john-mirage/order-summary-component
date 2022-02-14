@@ -1,0 +1,39 @@
+@use '../../assets/styles/theme';
+
+@mixin button {
+    display: block;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 1.2rem;
+    font-size: 1.6rem;
+    text-align: center;
+    transition-duration: 300ms;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.primaryButton {
+    @include button;
+    background-color: theme.$color-bright-blue;
+    box-shadow: 0 25px 50px -12px rgba(56, 41, 224, 0.4);
+    font-weight: 700;
+    color: theme.$color-white;
+    transition-property: opacity;
+
+    &:hover {
+        opacity: 80%;
+    }
+}
+
+.secondaryButton {
+    @include button;
+    background-color: transparent;
+    font-weight: 900;
+    color: theme.$color-gray;
+    transition-property: color;
+
+    &:hover {
+        color: theme.$color-dark-gray;
+    }
+}
