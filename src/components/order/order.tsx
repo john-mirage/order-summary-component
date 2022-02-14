@@ -1,5 +1,5 @@
-import style from './order.module.scss'
-import MusicIcon from '../music-icon/music-icon'
+import style from '@components/order/order.module.scss'
+import MusicIcon from '@components/music-icon/music-icon'
 
 function Order() {
     return (

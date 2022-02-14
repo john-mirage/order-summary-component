@@ -1,6 +1,6 @@
 import * as React from "react";
 import { SVGProps, Ref, forwardRef } from "react";
-import style from './music-icon.module.scss'
+import style from '@components/music-icon/music-icon.module.scss'
 
 const SvgIconMusic = (
     props: SVGProps<SVGSVGElement>,

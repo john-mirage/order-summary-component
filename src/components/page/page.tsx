@@ -1,5 +1,5 @@
-import style from './page.module.scss'
-import Card from '../card/card'
+import style from '@components/page/page.module.scss'
+import Card from '@components/card/card'
 
 function Page() {
     return (

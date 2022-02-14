@@ -1,4 +1,4 @@
-import style from './button.module.scss'
+import style from '@components/button/button.module.scss'
 
 interface Props {
     label: string;

@@ -1,7 +1,7 @@
-import style from './card.module.scss'
-import Order from '../order/order'
-import Button from '../button/button'
-import illustration from '../../assets/images/illustration-hero.svg'
+import style from '@components/card/card.module.scss'
+import Order from '@components/order/order'
+import Button from '@components/button/button'
+import illustration from '@assets/images/illustration-hero.svg'
 
 function Card() {
     return (
