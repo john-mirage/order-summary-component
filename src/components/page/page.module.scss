@@ -13,7 +13,7 @@
     background-size: 100% 50%;
     background-position: top;
 
-    @media screen and (min-width: theme.$screen-small) {
+    @media screen and (min-width: theme.$screen-sm) {
         background-image: url(/src/assets/images/pattern-background-desktop.svg);
     }
 
@@ -21,7 +21,7 @@
         width: 100%;
         height: auto;
 
-        @media screen and (min-width: theme.$screen-small) {
+        @media screen and (min-width: theme.$screen-sm) {
             width: 54rem;
             margin-left: auto;
             margin-right: auto;

@@ -11,7 +11,7 @@
     &__body {
         padding: 3rem;
 
-        @media screen and (min-width: theme.$screen-small) {
+        @media screen and (min-width: theme.$screen-sm) {
             padding: 4.5rem;
         }
     }
@@ -29,7 +29,7 @@
         color: theme.$color-dark-gray;
         margin-bottom: 2.5rem;
 
-        @media screen and (min-width: theme.$screen-small) {
+        @media screen and (min-width: theme.$screen-sm) {
             font-size: 3rem;
         }
     }
