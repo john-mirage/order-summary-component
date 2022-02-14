@@ -33,15 +33,18 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
-- Flexbox
+- HTML5
+  - Semantic
+- CSS
+  - Flexbox
+  - [Sass](https://sass-lang.com/)
+  - CSS modules
+- Javascript
+  - [TypeScript](https://www.typescriptlang.org/)
+  - [Vite](https://vitejs.dev/)
+  - [React](https://reactjs.org/)
+    - [SVGR](https://react-svgr.com/) ([SVGO](https://github.com/svg/svgo))
 - Mobile-first workflow
-- [React](https://reactjs.org/)
-    - [Vite](https://vitejs.dev/)
-    - [Sass](https://sass-lang.com/)
-    - CSS modules
-    - [SVGR](https://react-svgr.com/)
-        - [SVGO](https://github.com/svg/svgo)
 
 ## Author
 
