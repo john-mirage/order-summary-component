@@ -10,7 +10,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-- [Author](#author)
 
 ## Overview
 
@@ -22,7 +21,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./src/assets/images/Screenshot.png)
+![Project screenshot](./docs/order-summary-component.png)
 
 ### Links
 
@@ -45,8 +44,3 @@ Users should be able to:
   - [React](https://reactjs.org/)
     - [SVGR](https://react-svgr.com/) ([SVGO](https://github.com/svg/svgo))
 - Mobile-first workflow
-
-## Author
-
-- Website - [GitHub](https://github.com/ChaosDynamix)
-- Frontend Mentor - [@ChaosDynamix](https://www.frontendmentor.io/profile/ChaosDynamix)
