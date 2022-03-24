@@ -3,11 +3,13 @@
 @mixin button {
     display: block;
     width: 100%;
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 1.2rem;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 900;
     text-align: center;
-    transition-duration: 300ms;
+    transition-duration: 150ms;
     outline: none;
     border: none;
     cursor: pointer;
@@ -17,7 +19,6 @@
     @include button;
     background-color: theme.$color-bright-blue;
     box-shadow: 0 25px 50px -12px rgba(56, 41, 224, 0.4);
-    font-weight: 700;
     color: theme.$color-white;
     transition-property: opacity;
 
@@ -29,7 +30,6 @@
 .secondaryButton {
     @include button;
     background-color: transparent;
-    font-weight: 900;
     color: theme.$color-gray;
     transition-property: color;
 
