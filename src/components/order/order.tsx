@@ -9,7 +9,7 @@ function Order() {
             </div>
             
             <div className={style.order__summary}>
-                <h3 className={style.order__plan}>Annual Plan</h3>
+                <h2 className={style.order__plan}>Annual Plan</h2>
                 <p className={style.order__price}>$59.99/year</p>
             </div>
 
