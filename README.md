@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: TBA
-- Live Site URL: TBA
+- Live Site URL: [GitHub Pages](https://john-mirage.github.io/order-summary-component/)
 
 ## My process
 
