@@ -18,7 +18,7 @@
 .primaryButton {
     @include button;
     background-color: theme.$color-bright-blue;
-    box-shadow: 0 25px 50px -12px rgba(56, 41, 224, 0.4);
+    box-shadow: theme.$shadow-button;
     color: theme.$color-white;
     transition-property: opacity;
 
